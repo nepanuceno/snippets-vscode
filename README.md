@@ -1,8 +1,11 @@
 # snippets-vscode
 Snippets para automatizar rotinas repetitivas no eproc
 
+Abra o VSCode, selecione o Menu Arquivo(File)->Preferências(Preferences)->Trechos de Usuário(User Snippets). 
+Selecione a linguagem PHP e cole o conteúdo no arquivo php.json dentro do bloco de {} principal.
+CUIDADO! Caso haja outros Snippets no arquivo, cuidado para não sobrescreve-los.
+
 ```json
-  {
 	"Dump or die": {
 		"prefix": "ddd",
 		"body": [
@@ -71,6 +74,4 @@ Snippets para automatizar rotinas repetitivas no eproc
 		"description": "RN alterar Create"
 	}
 
-
-}
 ```
